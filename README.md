@@ -2,6 +2,7 @@
 This game made over Udemy [course](https://www.udemy.com/cant-code-who-cares-make-games-anyway/learn/v4/content)
 
 ### About this course.
+Playmaker plugin for Unity. Make games without coding.
 No coding. No programming. Learn cutting edge visual scripting tools to make your own video game from start to finish.
 
 ### Game creation steps.
