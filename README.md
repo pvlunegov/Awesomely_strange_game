@@ -17,3 +17,6 @@ No coding. No programming. Learn cutting edge visual scripting tools to make you
 2. Player plain animations installed. Free look camera installed.
 * Player plain animations installed. Idle, run animations with playmaker control.
 * Free look camera installed. Now camera fly around player with mouse control.
+
+3. Make Player smooth animation transition between jump, idle and run states.
+* Now player have nice smooth animations on running, jumping.
