@@ -5,6 +5,14 @@ This game made over Udemy [course](https://www.udemy.com/cant-code-who-cares-mak
 Playmaker plugin for Unity. Make games without coding.
 No coding. No programming. Learn cutting edge visual scripting tools to make your own video game from start to finish.
 
+### Some screenshots from latest commits:
+
+| Some screnshots | Some screnshots |
+| --- | --- |
+| `Awesome game Lighting and shadows ` ![Awesome game Lighting and shadows](https://user-images.githubusercontent.com/28482025/57582441-62adbf80-74b4-11e9-9130-9c04e370023a.png) | `Player jumping` ![Player jumping](https://user-images.githubusercontent.com/28482025/57582453-883ac900-74b4-11e9-86fb-8a8155e28a12.png) |
+| `Final bonus, at the end of the game`![Final bonus](https://user-images.githubusercontent.com/28482025/57582462-a3a5d400-74b4-11e9-8b74-43d5d4382333.png) | --- |
+
+
 ### Game creation steps.
 1. First commit.
 * Maked new Unity project. 
@@ -21,3 +29,8 @@ No coding. No programming. Learn cutting edge visual scripting tools to make you
 
 3. Make Player smooth animation transition between jump, idle and run states.
 * Now player have nice smooth animations on running, jumping.
+
+4. Maked lighting, shadows, torches, walls, final bonus
+* Now game loks like very nice.
+* Pretty dungeon darkness with moon light and bright torches with highlights, smoked in the dark, scattering sparks around them.
+* Final boss room with scary door with eyes, and behind it a treasure chest.
