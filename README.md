@@ -41,3 +41,6 @@ No coding. No programming. Learn cutting edge visual scripting tools to make you
 * "Dotween actions for playmaker" plugin Installed.
 
 6. Trap door maked. Door close when player enters boss room. 
+
+7. Added Player Health manager, Health UI slider at the edge of the screen. 
+Also added sphere that hurts player and removes his health. This sphere is for testing purposes.
