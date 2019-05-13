@@ -44,3 +44,8 @@ No coding. No programming. Learn cutting edge visual scripting tools to make you
 
 7. Added Player Health manager, Health UI slider at the edge of the screen. 
 Also added sphere that hurts player and removes his health. This sphere is for testing purposes.
+
+8. Added landmines with explosion effects, sounds and flashing color.
+- landmines flashing red color
+- landmines explosed with explosion effect and sounds
+- Player also have hurt effect and sound.
