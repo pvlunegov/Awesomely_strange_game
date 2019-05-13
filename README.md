@@ -40,3 +40,4 @@ No coding. No programming. Learn cutting edge visual scripting tools to make you
 * Points printed as text at the right edge of the screen
 * "Dotween actions for playmaker" plugin Installed.
 
+6. Trap door maked. Door close when player enters boss room. 
