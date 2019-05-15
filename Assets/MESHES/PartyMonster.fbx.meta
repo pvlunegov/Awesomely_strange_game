@@ -1,160 +1,662 @@
 fileFormatVersion: 2
 guid: ca4999786fbb587438a96bb4c680c6ec
-timeCreated: 1429176138
-licenseType: Free
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: Foot
-    100002: foot
-    100004: Foot_Goal
-    100006: foot_Goal
-    100008: Hand
-    100010: Hand_Goal
-    100012: Hnad
-    100014: Hnad_Goal
-    100016: Joint
-    100018: Joint_1
-    100020: Joint_1_2
-    100022: Joint_1_3
-    100024: Joint_1_4
-    100026: Joint_1_5
-    100028: Joint_1_6
-    100030: Joint_2
-    100032: Joint_2_2
-    100034: Joint_2_3
-    100036: Joint_3
-    100038: Joint_3_2
-    100040: Joint_3_3
-    100042: Joint_3_4
-    100044: Joint_3_5
-    100046: Joint_3_6
-    100048: Joint_3_7
-    100050: Joint_4
-    100052: Joint_4_2
-    100054: Joint_4_3
-    100056: Joint_4_4
-    100058: Joint_4_5
-    100060: Joint_5
-    100062: Joint_5_2
-    100064: Joint_5_3
-    100066: Joint_6
-    100068: Joint_6_2
-    100070: Joint_Pole
-    100072: Joint_Pole_2
-    100074: Joint_Pole_3
-    100076: Joint_Pole_4
-    100078: L_Arm
-    100080: L_CLaw
-    100082: L_claw
-    100084: L_LEG
-    100086: Party_Hat
-    100088: Party_Monster
-    100090: //RootNode
-    100092: R_Arm
-    100094: R_claw
-    100096: R_LEg
-    100098: Root
-    100100: Root_2
-    100102: Skeleton
-    100104: SPINE
-    100106: toe
-    100108: toe_2
-    100110: toe_Goal
-    100112: toe_Goal_2
-    400000: Foot
-    400002: foot
-    400004: Foot_Goal
-    400006: foot_Goal
-    400008: Hand
-    400010: Hand_Goal
-    400012: Hnad
-    400014: Hnad_Goal
-    400016: Joint
-    400018: Joint_1
-    400020: Joint_1_2
-    400022: Joint_1_3
-    400024: Joint_1_4
-    400026: Joint_1_5
-    400028: Joint_1_6
-    400030: Joint_2
-    400032: Joint_2_2
-    400034: Joint_2_3
-    400036: Joint_3
-    400038: Joint_3_2
-    400040: Joint_3_3
-    400042: Joint_3_4
-    400044: Joint_3_5
-    400046: Joint_3_6
-    400048: Joint_3_7
-    400050: Joint_4
-    400052: Joint_4_2
-    400054: Joint_4_3
-    400056: Joint_4_4
-    400058: Joint_4_5
-    400060: Joint_5
-    400062: Joint_5_2
-    400064: Joint_5_3
-    400066: Joint_6
-    400068: Joint_6_2
-    400070: Joint_Pole
-    400072: Joint_Pole_2
-    400074: Joint_Pole_3
-    400076: Joint_Pole_4
-    400078: L_Arm
-    400080: L_CLaw
-    400082: L_claw
-    400084: L_LEG
-    400086: Party_Hat
-    400088: Party_Monster
-    400090: //RootNode
-    400092: R_Arm
-    400094: R_claw
-    400096: R_LEg
-    400098: Root
-    400100: Root_2
-    400102: Skeleton
-    400104: SPINE
-    400106: toe
-    400108: toe_2
-    400110: toe_Goal
-    400112: toe_Goal_2
-    2300000: Party_Hat
-    3300000: Party_Hat
-    4300000: Party_Hat
-    4300002: Party_Monster
-    7400000: C4D Animation Take
-    9500000: //RootNode
-    13700000: Party_Monster
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Foot
+  - first:
+      1: 100002
+    second: foot
+  - first:
+      1: 100004
+    second: Foot_Goal
+  - first:
+      1: 100006
+    second: foot_Goal
+  - first:
+      1: 100008
+    second: Hand
+  - first:
+      1: 100010
+    second: Hand_Goal
+  - first:
+      1: 100012
+    second: Hnad
+  - first:
+      1: 100014
+    second: Hnad_Goal
+  - first:
+      1: 100016
+    second: Joint
+  - first:
+      1: 100018
+    second: Joint_1
+  - first:
+      1: 100020
+    second: Joint_1_2
+  - first:
+      1: 100022
+    second: Joint_1_3
+  - first:
+      1: 100024
+    second: Joint_1_4
+  - first:
+      1: 100026
+    second: Joint_1_5
+  - first:
+      1: 100028
+    second: Joint_1_6
+  - first:
+      1: 100030
+    second: Joint_2
+  - first:
+      1: 100032
+    second: Joint_2_2
+  - first:
+      1: 100034
+    second: Joint_2_3
+  - first:
+      1: 100036
+    second: Joint_3
+  - first:
+      1: 100038
+    second: Joint_3_2
+  - first:
+      1: 100040
+    second: Joint_3_3
+  - first:
+      1: 100042
+    second: Joint_3_4
+  - first:
+      1: 100044
+    second: Joint_3_5
+  - first:
+      1: 100046
+    second: Joint_3_6
+  - first:
+      1: 100048
+    second: Joint_3_7
+  - first:
+      1: 100050
+    second: Joint_4
+  - first:
+      1: 100052
+    second: Joint_4_2
+  - first:
+      1: 100054
+    second: Joint_4_3
+  - first:
+      1: 100056
+    second: Joint_4_4
+  - first:
+      1: 100058
+    second: Joint_4_5
+  - first:
+      1: 100060
+    second: Joint_5
+  - first:
+      1: 100062
+    second: Joint_5_2
+  - first:
+      1: 100064
+    second: Joint_5_3
+  - first:
+      1: 100066
+    second: Joint_6
+  - first:
+      1: 100068
+    second: Joint_6_2
+  - first:
+      1: 100070
+    second: Joint_Pole
+  - first:
+      1: 100072
+    second: Joint_Pole_2
+  - first:
+      1: 100074
+    second: Joint_Pole_3
+  - first:
+      1: 100076
+    second: Joint_Pole_4
+  - first:
+      1: 100078
+    second: L_Arm
+  - first:
+      1: 100080
+    second: L_CLaw
+  - first:
+      1: 100082
+    second: L_claw
+  - first:
+      1: 100084
+    second: L_LEG
+  - first:
+      1: 100086
+    second: Party_Hat
+  - first:
+      1: 100088
+    second: Party_Monster
+  - first:
+      1: 100090
+    second: //RootNode
+  - first:
+      1: 100092
+    second: R_Arm
+  - first:
+      1: 100094
+    second: R_claw
+  - first:
+      1: 100096
+    second: R_LEg
+  - first:
+      1: 100098
+    second: Root
+  - first:
+      1: 100100
+    second: Root_2
+  - first:
+      1: 100102
+    second: Skeleton
+  - first:
+      1: 100104
+    second: SPINE
+  - first:
+      1: 100106
+    second: toe
+  - first:
+      1: 100108
+    second: toe_2
+  - first:
+      1: 100110
+    second: toe_Goal
+  - first:
+      1: 100112
+    second: toe_Goal_2
+  - first:
+      4: 400000
+    second: Foot
+  - first:
+      4: 400002
+    second: foot
+  - first:
+      4: 400004
+    second: Foot_Goal
+  - first:
+      4: 400006
+    second: foot_Goal
+  - first:
+      4: 400008
+    second: Hand
+  - first:
+      4: 400010
+    second: Hand_Goal
+  - first:
+      4: 400012
+    second: Hnad
+  - first:
+      4: 400014
+    second: Hnad_Goal
+  - first:
+      4: 400016
+    second: Joint
+  - first:
+      4: 400018
+    second: Joint_1
+  - first:
+      4: 400020
+    second: Joint_1_2
+  - first:
+      4: 400022
+    second: Joint_1_3
+  - first:
+      4: 400024
+    second: Joint_1_4
+  - first:
+      4: 400026
+    second: Joint_1_5
+  - first:
+      4: 400028
+    second: Joint_1_6
+  - first:
+      4: 400030
+    second: Joint_2
+  - first:
+      4: 400032
+    second: Joint_2_2
+  - first:
+      4: 400034
+    second: Joint_2_3
+  - first:
+      4: 400036
+    second: Joint_3
+  - first:
+      4: 400038
+    second: Joint_3_2
+  - first:
+      4: 400040
+    second: Joint_3_3
+  - first:
+      4: 400042
+    second: Joint_3_4
+  - first:
+      4: 400044
+    second: Joint_3_5
+  - first:
+      4: 400046
+    second: Joint_3_6
+  - first:
+      4: 400048
+    second: Joint_3_7
+  - first:
+      4: 400050
+    second: Joint_4
+  - first:
+      4: 400052
+    second: Joint_4_2
+  - first:
+      4: 400054
+    second: Joint_4_3
+  - first:
+      4: 400056
+    second: Joint_4_4
+  - first:
+      4: 400058
+    second: Joint_4_5
+  - first:
+      4: 400060
+    second: Joint_5
+  - first:
+      4: 400062
+    second: Joint_5_2
+  - first:
+      4: 400064
+    second: Joint_5_3
+  - first:
+      4: 400066
+    second: Joint_6
+  - first:
+      4: 400068
+    second: Joint_6_2
+  - first:
+      4: 400070
+    second: Joint_Pole
+  - first:
+      4: 400072
+    second: Joint_Pole_2
+  - first:
+      4: 400074
+    second: Joint_Pole_3
+  - first:
+      4: 400076
+    second: Joint_Pole_4
+  - first:
+      4: 400078
+    second: L_Arm
+  - first:
+      4: 400080
+    second: L_CLaw
+  - first:
+      4: 400082
+    second: L_claw
+  - first:
+      4: 400084
+    second: L_LEG
+  - first:
+      4: 400086
+    second: Party_Hat
+  - first:
+      4: 400088
+    second: Party_Monster
+  - first:
+      4: 400090
+    second: //RootNode
+  - first:
+      4: 400092
+    second: R_Arm
+  - first:
+      4: 400094
+    second: R_claw
+  - first:
+      4: 400096
+    second: R_LEg
+  - first:
+      4: 400098
+    second: Root
+  - first:
+      4: 400100
+    second: Root_2
+  - first:
+      4: 400102
+    second: Skeleton
+  - first:
+      4: 400104
+    second: SPINE
+  - first:
+      4: 400106
+    second: toe
+  - first:
+      4: 400108
+    second: toe_2
+  - first:
+      4: 400110
+    second: toe_Goal
+  - first:
+      4: 400112
+    second: toe_Goal_2
+  - first:
+      23: 2300000
+    second: Party_Hat
+  - first:
+      33: 3300000
+    second: Party_Hat
+  - first:
+      43: 4300000
+    second: Party_Hat
+  - first:
+      43: 4300002
+    second: Party_Monster
+  - first:
+      74: 7400000
+    second: atk1
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Party_Monster
+  - first:
+      74: 6200578666267062213
+    second: run
+  - first:
+      74: 1174491015863913197
+    second: atk2
+  - first:
+      74: -2542082324949980094
+    second: atk3
+  - first:
+      74: -6758483313513240000
+    second: death
+  - first:
+      74: -8928351471818444634
+    second: death2
+  - first:
+      74: -5252816984213320552
+    second: idle
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hat black
+    second: {fileID: 2100000, guid: e6d8659953650d44eabffd3b9eaba652, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hat white
+    second: {fileID: 2100000, guid: b113f93741fcad14c98a14d27a051f0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal03
+    second: {fileID: 2100000, guid: 78f87a02e7104d149b33e1cea40cd6ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rustymetal
+    second: {fileID: 2100000, guid: de0e6d616eea9e745a83a4c75fd0202b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: atk1
+      takeName: C4D Animation Take
+      internalID: 7400000
+      firstFrame: 25
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: C4D Animation Take
+      internalID: 6200578666267062213
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: atk2
+      takeName: C4D Animation Take
+      internalID: 1174491015863913197
+      firstFrame: 55
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: atk3
+      takeName: C4D Animation Take
+      internalID: -2542082324949980094
+      firstFrame: 84
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: C4D Animation Take
+      internalID: -6758483313513240000
+      firstFrame: 144
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death2
+      takeName: C4D Animation Take
+      internalID: -8928351471818444634
+      firstFrame: 165
+      lastFrame: 193
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: C4D Animation Take
+      internalID: -5252816984213320552
+      firstFrame: 196
+      lastFrame: 214
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -162,24 +664,34 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

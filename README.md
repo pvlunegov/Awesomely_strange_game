@@ -49,3 +49,7 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 - landmines flashing red color
 - landmines explosed with explosion effect and sounds
 - Player also have hurt effect and sound.
+
+9. Added patrolling monster, guarding area.
+- Monster have some animations (idle, run)
+- Monster patrrolling area, choosing random points for patroll.
