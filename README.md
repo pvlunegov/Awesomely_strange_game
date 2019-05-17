@@ -53,3 +53,7 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 9. Added patrolling monster, guarding area.
 - Monster have some animations (idle, run)
 - Monster patrrolling area, choosing random points for patroll.
+
+10. Added pickup gun that fires bullets. Bullet can hurt enemy to death.
+- pickup Gun, bullet with animations, sounds and effects
+- Enemy monster hurt from bullet and death with animations.

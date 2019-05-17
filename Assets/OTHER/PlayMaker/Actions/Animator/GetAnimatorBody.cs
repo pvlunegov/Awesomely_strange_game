@@ -32,14 +32,11 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void Reset()
 		{
-			base.Reset();
-
 			gameObject = null;
 			bodyPosition= null;
 			bodyRotation = null;
 			bodyGameObject = null;
-			this.everyFrame = false;
-			this.everyFrameOption = AnimatorFrameUpdateSelector.OnAnimatorIK;
+			everyFrame = false;
 		}
 		
 		public override void OnEnter()
@@ -67,10 +64,6 @@ namespace HutongGames.PlayMaker.Actions
 				_transform = _body.transform;
 			}
 
-			if (this.everyFrameOption != AnimatorFrameUpdateSelector.OnAnimatorIK)
-			{
-				this.everyFrameOption = AnimatorFrameUpdateSelector.OnAnimatorIK;
-			}
 		}
 	
 		public override void OnActionUpdate()
@@ -98,15 +91,6 @@ namespace HutongGames.PlayMaker.Actions
 				_transform.position = _animator.bodyPosition;
 				_transform.rotation = _animator.bodyRotation;
 			}
-		}
-
-		public override string ErrorCheck()
-		{
-			if ( this.everyFrameOption != AnimatorFrameUpdateSelector.OnAnimatorIK)
-			{
-				return "Getting Body Position should only be done in OnAnimatorIK";
-			}
-			return string.Empty;
 		}
 
 	}

@@ -85,7 +85,7 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				_transform = _goal.transform;
 			}
-
+		
 		}
 	
 		public override void OnActionUpdate()

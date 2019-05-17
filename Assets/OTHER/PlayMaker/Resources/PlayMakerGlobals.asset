@@ -34,3 +34,9 @@ MonoBehaviour:
   events:
   - give points
   - ShutDoor
+  - waypoints on
+  - waypoints off
+  - coll_on
+  - coll_off
+  - EnemyHit
+  - Hit
