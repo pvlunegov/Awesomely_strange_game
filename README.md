@@ -65,3 +65,5 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 13. The door with eyes now opens when the player gets the key after the destruction of the boss. The eyes on the door turn, watching the player. 
 
 14. Added chest animations and coin in the chest pickup.
+
+15. Added footsteps sounds and animation events to player and party monster.
