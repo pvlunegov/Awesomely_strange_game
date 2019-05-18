@@ -59,3 +59,7 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 - Enemy monster hurt from bullet and death with animations.
 
 11. Added Boss with animations. Added boss kill bomb pickup for player gun. Added killing boss ability with effects.
+
+12. Added Music manager with dynamic dungeon and boss music change. Added birth Boss effects, added Boss knifes, Boss hurt Player effects and sounds.
+
+

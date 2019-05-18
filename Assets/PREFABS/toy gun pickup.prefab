@@ -205,7 +205,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
+        actionEnabled: 000101
         actionIsOpen: 010101
         actionStartIndex: 00000000050000000f000000
         actionHashCodes: b2cf1000b03274009c512400
@@ -597,7 +597,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
+        actionEnabled: 0000010101
         actionIsOpen: 0000010000
         actionStartIndex: 00000000050000000a0000001600000020000000
         actionHashCodes: b2cf1000b2cf100055046d04b032740045452f04

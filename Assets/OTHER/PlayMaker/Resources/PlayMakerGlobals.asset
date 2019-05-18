@@ -41,3 +41,7 @@ MonoBehaviour:
   - EnemyHit
   - Hit
   - Give_key
+  - Effects
+  - Chomp
+  - Boss_Music_on
+  - Dungeeon_Music_on

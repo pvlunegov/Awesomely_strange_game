@@ -1,7 +1,23 @@
 fileFormatVersion: 2
-guid: 1a471705ddfe47b45a62363f99729d1a
+guid: 5adea8df3bd1e684f97a9ab0e950247a
+labels:
+- Audio
+- soundtrack
+- non-linear
+- stem
+- music
+- ambient
+- everloop
+- Ambient
+- Everloop
+- Music
+- Non-linear
+- Soundtrack
+- Stem
+- Random
+timeCreated: 1440876440
+licenseType: Store
 AudioImporter:
-  externalObjects: {}
   serializedVersion: 6
   defaultSettings:
     loadType: 0
@@ -12,10 +28,8 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
-  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
-  ambisonic: 0
   3D: 1
   userData: 
   assetBundleName: 
