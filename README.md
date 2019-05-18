@@ -57,3 +57,5 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 10. Added pickup gun that fires bullets. Bullet can hurt enemy to death.
 - pickup Gun, bullet with animations, sounds and effects
 - Enemy monster hurt from bullet and death with animations.
+
+11. Added Boss with animations. Added boss kill bomb pickup for player gun. Added killing boss ability with effects.

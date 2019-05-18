@@ -40,3 +40,4 @@ MonoBehaviour:
   - coll_off
   - EnemyHit
   - Hit
+  - Give_key
