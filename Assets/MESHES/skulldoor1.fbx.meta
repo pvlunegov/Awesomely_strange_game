@@ -1,80 +1,331 @@
 fileFormatVersion: 2
 guid: c2cfa0d5f02295a4aaaaf25009c5d2f3
-timeCreated: 1429336496
-licenseType: Free
 ModelImporter:
-  serializedVersion: 18
-  fileIDToRecycleName:
-    100000: Door
-    100002: Door_bottom
-    100004: Door_housing
-    100006: Door_top
-    100008: Keyhole
-    100010: LEye
-    100012: Mideye
-    100014: REye
-    100016: //RootNode
-    400000: Door
-    400002: Door_bottom
-    400004: Door_housing
-    400006: Door_top
-    400008: Keyhole
-    400010: LEye
-    400012: Mideye
-    400014: REye
-    400016: //RootNode
-    2300000: Door_bottom
-    2300002: Door_housing
-    2300004: Door_top
-    2300006: Keyhole
-    2300008: LEye
-    2300010: Mideye
-    2300012: REye
-    3300000: Door_bottom
-    3300002: Door_housing
-    3300004: Door_top
-    3300006: Keyhole
-    3300008: LEye
-    3300010: Mideye
-    3300012: REye
-    4300000: Door_housing
-    4300002: Keyhole
-    4300004: REye
-    4300006: LEye
-    4300008: Mideye
-    4300010: Door_bottom
-    4300012: Door_top
-    7400000: C4D Animation Take
-    9500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Door
+  - first:
+      1: 100002
+    second: Door_bottom
+  - first:
+      1: 100004
+    second: Door_housing
+  - first:
+      1: 100006
+    second: Door_top
+  - first:
+      1: 100008
+    second: Keyhole
+  - first:
+      1: 100010
+    second: LEye
+  - first:
+      1: 100012
+    second: Mideye
+  - first:
+      1: 100014
+    second: REye
+  - first:
+      1: 100016
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Door
+  - first:
+      4: 400002
+    second: Door_bottom
+  - first:
+      4: 400004
+    second: Door_housing
+  - first:
+      4: 400006
+    second: Door_top
+  - first:
+      4: 400008
+    second: Keyhole
+  - first:
+      4: 400010
+    second: LEye
+  - first:
+      4: 400012
+    second: Mideye
+  - first:
+      4: 400014
+    second: REye
+  - first:
+      4: 400016
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: Door_bottom
+  - first:
+      23: 2300002
+    second: Door_housing
+  - first:
+      23: 2300004
+    second: Door_top
+  - first:
+      23: 2300006
+    second: Keyhole
+  - first:
+      23: 2300008
+    second: LEye
+  - first:
+      23: 2300010
+    second: Mideye
+  - first:
+      23: 2300012
+    second: REye
+  - first:
+      33: 3300000
+    second: Door_bottom
+  - first:
+      33: 3300002
+    second: Door_housing
+  - first:
+      33: 3300004
+    second: Door_top
+  - first:
+      33: 3300006
+    second: Keyhole
+  - first:
+      33: 3300008
+    second: LEye
+  - first:
+      33: 3300010
+    second: Mideye
+  - first:
+      33: 3300012
+    second: REye
+  - first:
+      43: 4300000
+    second: Door_housing
+  - first:
+      43: 4300002
+    second: Keyhole
+  - first:
+      43: 4300004
+    second: REye
+  - first:
+      43: 4300006
+    second: LEye
+  - first:
+      43: 4300008
+    second: Mideye
+  - first:
+      43: 4300010
+    second: Door_bottom
+  - first:
+      43: 4300012
+    second: Door_top
+  - first:
+      74: 7400000
+    second: Open_Door
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      74: -3441470364173736157
+    second: Door_closed_idle
+  - first:
+      74: 9040666465519796702
+    second: Door_open_idle
+  - first:
+      74: 4808729313085858893
+    second: Close_Door
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 45ca94f165112fa46bf9a2269929f81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Da Bricks
+    second: {fileID: 2100000, guid: 2cb327daaa6022b489a1b4a744db8a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYEBALL
+    second: {fileID: 2100000, guid: 63a8a768712a1d24b9dac56b27605f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 93418339e6192f2449ac5308c0d4c4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 25e82214832e9bd41abd9a11246f83a3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open_Door
+      takeName: C4D Animation Take
+      internalID: 7400000
+      firstFrame: 9
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door_closed_idle
+      takeName: C4D Animation Take
+      internalID: -3441470364173736157
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Door_open_idle
+      takeName: C4D Animation Take
+      internalID: 9040666465519796702
+      firstFrame: 21
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Close_Door
+      takeName: C4D Animation Take
+      internalID: 4808729313085858893
+      firstFrame: 29
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -82,24 +333,34 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

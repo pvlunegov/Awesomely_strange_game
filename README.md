@@ -62,4 +62,5 @@ Also added sphere that hurts player and removes his health. This sphere is for t
 
 12. Added Music manager with dynamic dungeon and boss music change. Added birth Boss effects, added Boss knifes, Boss hurt Player effects and sounds.
 
+13. The door with eyes now opens when the player gets the key after the destruction of the boss. The eyes on the door turn, watching the player. 
 
